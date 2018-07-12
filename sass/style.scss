@@ -1,0 +1,32 @@
+
+body {
+	background-color: #E6E6E6;
+	color: #B3B3B3;
+}
+.site {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	height: 100vh;
+	.logo{
+		margin-top: 20vh;
+		font-size: 50px;
+	}
+	.links {
+		a {
+			color: #B3B3B3;
+			i {
+				font-size: 25px;
+				padding: 0 10px;
+			}
+			img {
+				height: 25px;
+				width: 100px;
+			}
+		}		
+	}
+	.construction {
+		display: flex;
+		margin: 30vh 0 0 60vw;
+	}
+}

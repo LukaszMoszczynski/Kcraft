@@ -1,0 +1,40 @@
+body {
+  background-color: #E6E6E6;
+  color: #B3B3B3;
+}
+
+.site {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+      align-items: center;
+  -ms-flex-direction: column;
+      flex-direction: column;
+  height: 100vh;
+}
+
+.site .logo {
+  margin-top: 20vh;
+  font-size: 50px;
+}
+
+.site .links a {
+  color: #B3B3B3;
+}
+
+.site .links a i {
+  font-size: 25px;
+  padding: 0 10px;
+}
+
+.site .links a img {
+  height: 25px;
+  width: 100px;
+}
+
+.site .construction {
+  display: -ms-flexbox;
+  display: flex;
+  margin: 30vh 0 0 60vw;
+}
+/*# sourceMappingURL=style.prefixed.css.map */
